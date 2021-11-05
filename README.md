@@ -1,4 +1,1 @@
-# **Activity 6**
-
-# step 1:
-1. 
+# bboard-tutorials-cybersecurity-v3-
