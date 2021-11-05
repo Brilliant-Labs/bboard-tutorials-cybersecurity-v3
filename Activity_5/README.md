@@ -10,7 +10,7 @@
 2. in the input tab drag the forever block and drag the **radio send string ""** block and change the **"" to welcome**
 3. in the radio tab drag the **on radio received receivedString** and drag the **show string "hello"** blocks and change the **"hello" to the receivedString**
 
-
+```
 radio.onReceivedString(function (receivedString) {
     basic.showString(receivedString)
 })
@@ -18,3 +18,4 @@ radio.setGroup(1)
 basic.forever(function () {
     basic.showString("Welcome")
 })
+```
