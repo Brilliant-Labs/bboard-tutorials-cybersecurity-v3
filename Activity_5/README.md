@@ -9,6 +9,8 @@
 1. in the radio tab find the block **radio set group 1** into the on start block
 2. in the input tab drag the forever block and drag the **radio send string ""** block and change the **"" to welcome**
 3. in the radio tab drag the **on radio received receivedString** and drag the **show string "hello"** blocks and change the **"hello" to the receivedString**
+
+
 radio.onReceivedString(function (receivedString) {
     basic.showString(receivedString)
 })
