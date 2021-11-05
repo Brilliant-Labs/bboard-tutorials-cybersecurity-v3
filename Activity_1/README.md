@@ -1,7 +1,6 @@
 # Activity 1
 
 # Step 1 : plug in the USB from the micro bit into your pc/laptop
-microbitpluggedin.png
 <!-- https://github.com/Brilliant-Labs/bboard-tuts-cybersecurity-3/blob/master/cybersec/activity-1/connect-microbit.gif?raw=true -->
 ![Click](https://github.com/Brilliant-Labs/bboard-tutorials-cybersecurity-v3/blob/main/Activity_1/connect-microbit.gif?raw=true "Click")
 
