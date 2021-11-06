@@ -12,3 +12,10 @@
 2. in the basic tab click and drag the **show string "hello"** block into the forever block
 
 3. in the advaced tab click the text button drag the **""** block and put it over top of the **hello part of the show string block** and change the text to the **name of you comunuity**
+
+```
+basic.showIcon(IconNames.Happy)
+basic.forever(function () {
+    basic.showString("My City")
+})
+```
