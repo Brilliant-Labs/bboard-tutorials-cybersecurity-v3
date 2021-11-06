@@ -19,3 +19,13 @@
 3. In the input tab drag the **on button A pressed** to your work space and change it from **A to B**eeee
 
 4. In the input tab drag the the **servo write pin P0 to 180** and change it from **180 to 0** and drag it in the **on button B pressed**
+
+```
+input.onButtonPressed(Button.A, function () {
+    pins.servoWritePin(AnalogPin.P0, 180)
+})
+input.onButtonPressed(Button.B, function () {
+    pins.servoWritePin(AnalogPin.P0, 0)
+})
+basic.showIcon(IconNames.Happy)
+```
