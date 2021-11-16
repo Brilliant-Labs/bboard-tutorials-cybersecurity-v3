@@ -19,7 +19,7 @@ for building their smart community later in the other activities.
 
 2. In the ``||basic||`` tab click and drag the **show string "hello"** block into the forever block
 
-3. In the ``||advanced||`` tab click the text button drag the **""** block and put it over top of the **hello part of the show string block** and change the text to the **name of your comununity**
+3. In the ``||advanced||`` tab click the text button drag the **"Hello!"** block and put it over top of the **hello part of the show string block** and change the text to the **name of your comununity**
 
 
 ```
