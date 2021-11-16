@@ -1,7 +1,9 @@
 
 
 # Activité 1
-# Bienvenue dans ma communauté
+# Partie 1 - Activité de programmation d’un micro:bit : Bienvenue dans ma ville...
+
+Cette activité permettra aux élèves de créer une affiche lumineuse pour afficher le nom de leur communauté. Ils peuvent prendre le nom de leur communauté ou commencer à réfléchir à un nom qu’ils aimeraient utiliser pour la construction de leur communauté intelligente un peu plus loin dans les autres activités.
 
 # Étape 1 : Branchez le câble USB du Microbit dans votre port USB
 
