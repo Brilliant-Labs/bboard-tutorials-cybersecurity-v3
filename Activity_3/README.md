@@ -1,5 +1,12 @@
 # **Activity 3**
 
+# Part 1 - Activity with the micro:bit: Running a servo motor
+
+The micro:bit is a powerful micro controller and you will have the chance to do some coding activities that will give you a better understanding of how to protect yourself and how the world of cyber security works. We will walk you through this and you can also give students time to explore and try to create their own programs. This activity will allow students to create a light-up poster to display their community's name.
+They can take the name of their community or start thinking of a name they would like to use
+for building their smart community later in the other activities.
+
+
 # Step 1 : plug in the mircobit into your pc and you Bboard
 
 <!-- https://github.com/Brilliant-Labs/bboard-tuts-cybersecurity-3/blob/master/cybersec/activity-1/connect-microbit.gif?raw=true -->
