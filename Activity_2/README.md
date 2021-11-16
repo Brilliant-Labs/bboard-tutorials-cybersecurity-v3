@@ -1,4 +1,9 @@
 # **Activity 2**
+ 
+Activity 2: Activity with the micro:bit: Make a Blixel light up
+The micro:bit is a powerful micro controller and you will have the chance to do some coding activities that will give you a better understanding of how to protect yourself and how the world of cyber security works. We will walk you through this and you can also give students time to explore and try to create their own programs. This activity will allow students to create a light-up poster to display their community's name.
+They can take the name of their community or start thinking of a name they would like to use
+for building their smart community later in the other activities.
 
 # Step 1 : plug in the USB from the micro bit into your pc/laptop
 
@@ -27,11 +32,11 @@
 # Step 4 : if the light are red
 1. under the [variable] tab create a brand new variable called **password**
 2. once you have set you brand new variable has been created drag the [Set password to 0] into the [on start] block as well cick and drag from the [basic] the [show icon] and change it from the **heart to yes** (1st row, 3rd one)
-3. In the [text] tab click and drag the [""] block into the [set password to 0] block and change it to **123456**
+3. ``||set password to 0||`` block and change it to ``||set password to 123456||``
 
 # Step 5 : if every thing works 
-1. from the [logic] tab drag the [if true then] block and hit the plus button it should now look like [if true then else]
-2. from Step one part 2 dupicate the block and put one in the [if true then] and put one into the [else] and change the one in the [if true then] to the color **green** (2nd row, 1st one) 
+1. from the ``||logic||`` tab drag the [if true then] block and hit the plus button it should now look like ``||if true then else||``
+2. from Step one part 2 dupicate the block and put one in the ``||if true then||`` and put one into the ``||else||`` and change the one in the ``||if true then||`` to the color **green** (2nd row, 1st one) 
 ```
 let password = "123456"
 basic.showIcon(IconNames.Yes)
