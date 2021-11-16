@@ -1,5 +1,9 @@
 # **Activity 5**
 
+# Part 1 - Activity with the micro:bit: Bluetooth interconnection of micro:bits
+
+This activity will allow students to interconnect the micro:bits together with the 2.4GHz signal
+
 # step 1: plug in the microbit into the pc and your Bboard 
 
 <!-- https://github.com/Brilliant-Labs/bboard-tuts-cybersecurity-3/blob/master/cybersec/activity-1/connect-microbit.gif?raw=true -->
