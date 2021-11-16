@@ -6,7 +6,7 @@ The micro:bit is a powerful micro controller and you will have the chance to do 
 They can take the name of their community or start thinking of a name they would like to use
 for building their smart community later in the other activities.
 
-# Step 1 : plug in the USB from the micro bit into your pc/laptop
+# Step 1 : plug in the USB from the Micro:Bit into your pc/laptop
 <!-- https://github.com/Brilliant-Labs/bboard-tuts-cybersecurity-3/blob/master/cybersec/activity-1/connect-microbit.gif?raw=true -->
 ![Click](https://github.com/Brilliant-Labs/bboard-tutorials-cybersecurity-v3/blob/main/Activity_1/connect-microbit.gif?raw=true "Click")
 
