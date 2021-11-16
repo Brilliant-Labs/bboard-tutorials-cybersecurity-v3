@@ -1,5 +1,10 @@
 # **Activity 4**
 
+# Part 1 - Activity with the micro:bit: The Temperature Sensor
+
+This activity will allow students to program and operate a temperature sensor using a
+micro:bit.
+
 # Step 1 : plug in the microbit to the to your pc and the Bboard 
 
 <!-- https://github.com/Brilliant-Labs/bboard-tuts-cybersecurity-3/blob/master/cybersec/activity-1/connect-microbit.gif?raw=true -->
