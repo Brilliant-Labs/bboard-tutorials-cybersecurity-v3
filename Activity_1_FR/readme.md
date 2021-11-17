@@ -15,8 +15,8 @@ Cette activité permettra aux élèves de créer une affiche lumineuse pour affi
 
 # Étape 2 : affichage le Nom de ton  ccommunauté
 1. Dans la barre [base], cliquez et faites glisser le bloc d'icônes d'affichage et changez-le de cœur en heureux (1ère rangée, dernière)
-2. Dans l'onglet [base], cliquez et faites glisser le bloc show string "hello" dans le bloc forever
-3. Dans l'onglet [avancé], cliquez sur le bouton de texte, faites glisser le bloc "" et placez-le au-dessus de la partie hello du bloc show string et remplacez le texte par le nom de votre communauté
+2. Dans l'onglet ``||base||``, cliquez et faites glisser le bloc show string "hello" dans le bloc forever
+3. change le bloc ``|| base
 
 ```
 basic.showIcon(IconNames.Happy)
