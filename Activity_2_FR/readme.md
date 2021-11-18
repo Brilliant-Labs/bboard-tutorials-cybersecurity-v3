@@ -3,9 +3,34 @@
 # Partie 1 - Activité de programmation d’un micro:bit : Faire allumer une lumière BliXel
 
 Le micro:bit est un microcontrôleur simple et vous aurez la chance de faire des activités de codage qui vous permettront de mieux comprendre comment se protéger et du fonctionnement du monde de la cybersécurité. Nous vous accompagnerons avec ceci et vous pourrez aussi donner du temps aux élèves pour explorer et essayer de créer leurs propres programmes.
+# Étape 1 : Branchez le câble USB du Microbit dans votre port USB
 
-Etape 1 :
-1. Cliquez sur le ``||Avanced||`` onglet et trouvez l'onglet BLixels
-une fois dans les ``||BLiXels||`` onglet cliquez et faites glisser l'ensemble de tous les blixels sur le bloc rouge et faites-le glisser dans le bloc pour toujours
-allumez le bboard avec l'interrupteur sur le côté et voyez si le voyant est rouge
-(si les Blixels ne sont pas rouges) répétez l'étape 3 une fois de plus
+<!-- https://github.com/Brilliant-Labs/bboard-tuts-cybersecurity-3/blob/master/cybersec/activity-1/connect-microbit.gif?raw=true -->
+![Click](https://github.com/Brilliant-Labs/bboard-tutorials-cybersecurity-v3/blob/main/Activity_1/connect-microbit.gif?raw=true "Click")
+
+<!-- https://raw.githubusercontent.com/Brilliant-Labs/bboard-tutorials-cybersecurity-v3/main/Activity_1/micro.png -->
+![click](https://raw.githubusercontent.com/Brilliant-Labs/bboard-tutorials-cybersecurity-v3/main/Activity_1/micro.png)
+
+# Étape 2 : connectez le microbit au bboard et assurez-vous que l'alimentation est connectée
+
+<!--https://raw.githubusercontent.com/Brilliant-Labs/bboard-tutorials-cybersecurity-v3/main/Activity_2/bborad.png -->
+![Click](https://raw.githubusercontent.com/Brilliant-Labs/bboard-tutorials-cybersecurity-v3/main/Activity_2/bborad.png)
+
+# Etape 3 : Quand ton Microbit et brance 
+1. Cliquez sur le ``||Avanced||`` onglet et trouvez l'onglet BLixels une fois dans les ``||BLiXels||`` onglet cliquez et faites glisser ``||set all blixels to red||`` et faites-le glisser dans le bloc pour toujours
+2. allumez le bboard avec l'interrupteur sur le côté et voyez si le voyant est rouge
+> (si les Blixels ne sont pas rouges) répétez l'étape 3 une fois de plus
+<!-- https://raw.githubusercontent.com/Brilliant-Labs/bboard-tutorials-cybersecurity-v3/main/Activity_2/image%20(1).png -->
+![Click](https://raw.githubusercontent.com/Brilliant-Labs/bboard-tutorials-cybersecurity-v3/main/Activity_2/image%20(1).png)
+
+<!-- https://raw.githubusercontent.com/Brilliant-Labs/bboard-tutorials-cybersecurity-v3/main/Activity_2/image%20(2).png -->
+![Click](https://raw.githubusercontent.com/Brilliant-Labs/bboard-tutorials-cybersecurity-v3/main/Activity_2/image%20(2).png)
+
+# Etape 4 : si le voyant est rouge
+1. sous l'onglet ``||Variables||`` créez une toute nouvelle variable appelée **mot de passe**
+2. une fois que vous avez défini votre nouvelle variable a été créée, faites glisser le ``||Définir le mot de passe sur 0||`` dans le bloc ``||on start||`` également cliquez et faites glisser depuis le ``||Basic||`` le ``||show icon||`` et le changer du **coeur à oui** (1ère rangée, 3ème)
+3. ``||set password to 0||`` bloquer et le changer en ``||set password to 123456||``
+
+# Etape 5 : si tout fonctionne
+1. à partir de l'onglet ``||Logic||`` faites glisser le bloc ``||if true then||`` et appuyez sur le bouton plus il devrait maintenant ressembler à ``||if true then else||``
+2. saisir le  ``||set all Blixels to red||`` et le mettre dans le ``||if true then||`` et mettre un dans le ``||else||`` et changer celui dans le ``||if true then||`` à la couleur **vert** (2ème rangée, 1ère)
