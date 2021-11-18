@@ -1,1 +1,35 @@
+# Activité 3
 
+# Partie 1 - Activité de programmation d’un micro:bit : Faire tourner un servo moteur
+Le micro:bit est un microcontrôleur simple et vous aurez la chance de faire des activités de codage qui vous permettront de mieux comprendre comment se protéger et du fonctionnement du monde de la cybersécurité. Nous vous accompagnerons avec ceci et vous pourrez aussi donner du temps aux élèves pour explorer et essayer de créer leurs propres programmes.
+
+# Étape 1 : Branchez le câble USB du Microbit dans votre port USB et connectez le microbit au bboard et assurez-vous que l'alimentation est connectée
+
+<!-- https://github.com/Brilliant-Labs/bboard-tuts-cybersecurity-3/blob/master/cybersec/activity-1/connect-microbit.gif?raw=true -->
+![Click](https://github.com/Brilliant-Labs/bboard-tutorials-cybersecurity-v3/blob/main/Activity_1/connect-microbit.gif?raw=true "Click")
+
+<!-- https://raw.githubusercontent.com/Brilliant-Labs/bboard-tutorials-cybersecurity-v3/main/Activity_1/micro.png -->
+![click](https://raw.githubusercontent.com/Brilliant-Labs/bboard-tutorials-cybersecurity-v3/main/Activity_1/micro.png)
+
+<!--https://raw.githubusercontent.com/Brilliant-Labs/bboard-tutorials-cybersecurity-v3/main/Activity_2/bborad.png -->
+![Click](https://raw.githubusercontent.com/Brilliant-Labs/bboard-tutorials-cybersecurity-v3/main/Activity_2/bborad.png)
+
+# Étape 2 : branchez votre servomoteur
+<!--https://github.com/Brilliant-Labs/bboard-tutorials-cybersecurity-v3/blob/main/Activity_3/servoPlugIn.png -->
+![Click](https://github.com/Brilliant-Labs/bboard-tutorials-cybersecurity-v3/blob/main/Activity_3/servoPlugIn.png)
+
+# Étape 3 : coder votre servomoteur
+1. Dans l'onglet de ``||input||``, faites glisser ``||on button A pressed||`` vers votre espace de travail 
+2. Dans l'onglet ``||advanced||``, recherchez la ``||servo write pin P0 to 180||``
+3. Dans l'onglet de ``||input||``, faites glisser ``||on button A pressed||`` vers votre espace de travail et modifiez-le de A à B
+4. dupliquez le bloc de l'étape 3 partie 2 et changez le nombre de **180 à 0** et faites-le glisser dans le ``||on button B pressed||``
+
+```
+input.onButtonPressed(Button.A, function () {
+    pins.servoWritePin(AnalogPin.P0, 180)
+})
+input.onButtonPressed(Button.B, function () {
+    pins.servoWritePin(AnalogPin.P0, 0)
+})
+basic.showIcon(IconNames.Happy)
+```
