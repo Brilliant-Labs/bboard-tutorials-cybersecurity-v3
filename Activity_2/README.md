@@ -13,11 +13,13 @@ for building their smart community later in the other activities.
 ---
 <!-- https://raw.githubusercontent.com/Brilliant-Labs/bboard-tutorials-cybersecurity-v3/main/Activity_1/micro.png -->
 ![Click](https://raw.githubusercontent.com/Brilliant-Labs/bboard-tutorials-cybersecurity-v3/main/Activity_1/micro.png)
----
+
+# Step 2 : conect the microbit into the bboard and make sure the power suply is conected
 <!--https://raw.githubusercontent.com/Brilliant-Labs/bboard-tutorials-cybersecurity-v3/main/Activity_2/bborad.png -->
 ![Click](https://raw.githubusercontent.com/Brilliant-Labs/bboard-tutorials-cybersecurity-v3/main/Activity_2/bborad.png)
 
-# Step 2 : conect the microbit into the bboard and make sure the power suply is conected
+<!--https://raw.githubusercontent.com/Brilliant-Labs/bboard-tutorials-cybersecurity-v3/main/Activity_2/b.Board_power.JPG -->
+![Click](https://raw.githubusercontent.com/Brilliant-Labs/bboard-tutorials-cybersecurity-v3/main/Activity_2/b.Board_power.JPG)
 
 # Step 3 : once the microbit is conected 
 1. Click the ``||Advanced||`` tab and find the BLixels tab
@@ -37,7 +39,7 @@ for building their smart community later in the other activities.
 
 # Step 5 : if every thing works 
 1. from the ``||Logic||`` tab drag the ``||if true then||`` block and hit the plus button it should now look like ``||if true then else||``
-2. from Step one part 2 dupicate the block and put one in the ``||if true then||`` and put one into the ``||else||`` and change the one in the ``||if true then||`` to the color **green** (2nd row, 1st one) 
+2. grab the ``||set all Blixels to red||`` and put it in the ``||if true then||`` and put one into the ``||else||`` and change the one in the ``||if true then||`` to the color **green** (2nd row, 1st one) 
 ```
 let password = "123456"
 basic.showIcon(IconNames.Yes)
