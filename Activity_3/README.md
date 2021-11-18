@@ -26,6 +26,10 @@ for building their smart community later in the other activities.
 <!-- https://github.com/Brilliant-Labs/bboard-tutorials-cybersecurity-v3/blob/main/Activity_3/servoPlugIn.png -->
 ![Click](https://github.com/Brilliant-Labs/bboard-tutorials-cybersecurity-v3/blob/main/Activity_3/servoPlugIn.png "Click")
 
+<!-- https://raw.githubusercontent.com/Brilliant-Labs/bboard-tutorials-cybersecurity-v3/main/Activity_3/servo_in%20board.JPG -->
+![Click](https://raw.githubusercontent.com/Brilliant-Labs/bboard-tutorials-cybersecurity-v3/main/Activity_3/servo_in%20board.JPG)
+
+
 # Step 3 : coding your servo motor 
 
 1. In the input tab drag the **on button A pressed** to your work space
