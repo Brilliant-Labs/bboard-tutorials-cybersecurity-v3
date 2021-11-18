@@ -14,6 +14,9 @@ Le micro:bit est un microcontrôleur simple et vous aurez la chance de faire des
 <!--https://raw.githubusercontent.com/Brilliant-Labs/bboard-tutorials-cybersecurity-v3/main/Activity_2/bborad.png -->
 ![Click](https://raw.githubusercontent.com/Brilliant-Labs/bboard-tutorials-cybersecurity-v3/main/Activity_2/bborad.png)
 
+<!-- https://raw.githubusercontent.com/Brilliant-Labs/bboard-tutorials-cybersecurity-v3/main/Activity_2/b.Board_power.JPG -->
+![Click](https://raw.githubusercontent.com/Brilliant-Labs/bboard-tutorials-cybersecurity-v3/main/Activity_2/b.Board_power.JPG)
+
 # Étape 2 : Indicateur de température
 1. ouvrez la balise ``||basic||`` et faites glisser le ``||show string "Hello"||`` et faites-le glisser dans le bloc ``||forever||``
 2. dans ``||basic||`` faites défiler vers le bas et recherchez la ``||temperatue (°c)||`` et cliquez et faites-la glisser dans le bloc ``||show string "Hello"||``
