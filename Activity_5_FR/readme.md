@@ -14,6 +14,9 @@ Le micro:bit est un microcontrôleur simple et vous aurez la chance de faire des
 <!--https://raw.githubusercontent.com/Brilliant-Labs/bboard-tutorials-cybersecurity-v3/main/Activity_2/bborad.png -->
 ![Click](https://raw.githubusercontent.com/Brilliant-Labs/bboard-tutorials-cybersecurity-v3/main/Activity_2/bborad.png)
 
+<!-- https://raw.githubusercontent.com/Brilliant-Labs/bboard-tutorials-cybersecurity-v3/main/Activity_2/b.Board_power.JPG -->
+![Click](https://raw.githubusercontent.com/Brilliant-Labs/bboard-tutorials-cybersecurity-v3/main/Activity_2/b.Board_power.JPG)
+
 # Étape 2 : Signal radio
 1. dans l'onglet ``||radio||`` recherchez le bloc ``||radio set group 1||`` dans le bloc ``||on start||``
 2. dans l'onglet ``||Input||`` faites glisser le bloc ``||forever||`` et faites glisser le bloc ``||radio send string ""||`` et changez le **"" en bienvenue**
