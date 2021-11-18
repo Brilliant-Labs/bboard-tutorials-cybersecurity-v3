@@ -31,7 +31,7 @@ for building their smart community later in the other activities.
 
 3. In the input tab drag the **on button A pressed** to your work space and change it from **A to B**
 
-4. In the input tab drag the the **servo write pin P0 to 180** and change it from **180 to 0** and drag it in the **on button B pressed**
+4. duplucate the block from step 3 part 2 and change the number from **180 to 0** and drag it in the **on button B pressed**
 
 ```
 input.onButtonPressed(Button.A, function () {
