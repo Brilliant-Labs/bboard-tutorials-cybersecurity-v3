@@ -16,6 +16,9 @@ Le micro:bit est un microcontrôleur simple et vous aurez la chance de faire des
 <!--https://raw.githubusercontent.com/Brilliant-Labs/bboard-tutorials-cybersecurity-v3/main/Activity_2/bborad.png -->
 ![Click](https://raw.githubusercontent.com/Brilliant-Labs/bboard-tutorials-cybersecurity-v3/main/Activity_2/bborad.png)
 
+<!-- https://raw.githubusercontent.com/Brilliant-Labs/bboard-tutorials-cybersecurity-v3/main/Activity_2/b.Board_power.JPG -->
+![Click](https://raw.githubusercontent.com/Brilliant-Labs/bboard-tutorials-cybersecurity-v3/main/Activity_2/b.Board_power.JPG)
+
 # Etape 3 : Quand ton Microbit et brance 
 1. Cliquez sur le ``||Avanced||`` onglet et trouvez l'onglet BLixels une fois dans les ``||BLiXels||`` onglet cliquez et faites glisser ``||set all blixels to red||`` et faites-le glisser dans le bloc pour toujours
 2. allumez le bboard avec l'interrupteur sur le côté et voyez si le voyant est rouge
