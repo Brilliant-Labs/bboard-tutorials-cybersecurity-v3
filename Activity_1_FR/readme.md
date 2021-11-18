@@ -14,7 +14,7 @@ Cette activité permettra aux élèves de créer une affiche lumineuse pour affi
 ![click](https://raw.githubusercontent.com/Brilliant-Labs/bboard-tutorials-cybersecurity-v3/main/Activity_1/micro.png)
 
 # Étape 2 : affichage le Nom de ton  ccommunauté
-1. Dans la barre ``||base||``, cliquez et faites glisser le bloc d'icônes d'affichage et changez-le de cœur en heureux (1ère rangée, dernière)
+1. Dans la barre ``||basic||``, cliquez et faites glisser le bloc d'icônes d'affichage et changez-le de cœur en heureux (1ère rangée, dernière)
 2. Dans l'onglet ``||Basic||``, cliquez et faites glisser le bloc show string "hello" dans le bloc forever
 3. change le bloc ``||show string "hello"||``, au nom de votre communauté
 
