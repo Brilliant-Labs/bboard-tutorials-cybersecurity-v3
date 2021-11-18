@@ -21,6 +21,9 @@ Le micro:bit est un microcontrôleur simple et vous aurez la chance de faire des
 <!--https://github.com/Brilliant-Labs/bboard-tutorials-cybersecurity-v3/blob/main/Activity_3/servoPlugIn.png -->
 ![Click](https://github.com/Brilliant-Labs/bboard-tutorials-cybersecurity-v3/blob/main/Activity_3/servoPlugIn.png)
 
+<!-- https://raw.githubusercontent.com/Brilliant-Labs/bboard-tutorials-cybersecurity-v3/main/Activity_3/servo_in%20board.JPG -->
+![Click](https://raw.githubusercontent.com/Brilliant-Labs/bboard-tutorials-cybersecurity-v3/main/Activity_3/servo_in%20board.JPG)
+
 # Étape 3 : coder votre servomoteur
 1. Dans l'onglet de ``||input||``, faites glisser ``||on button A pressed||`` vers votre espace de travail 
 2. Dans l'onglet ``||advanced||``, recherchez la ``||servo write pin P0 to 180||``
