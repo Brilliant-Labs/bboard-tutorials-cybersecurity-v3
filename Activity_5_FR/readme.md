@@ -30,3 +30,5 @@ basic.forever(function () {
     basic.showString("Welcome")
 })
 ```
+# Explication du code
+Il est possible d'interconnecter les b.Boards à l'aide du signal 2.4 GHz. En configurant les b.Boards sur le même canal, dans notre cas le canal 1, tous les b.Boards sur ce même canal qui auront le même code pourront recevoir le message lorsqu'un groupe aura appuyé sur le bouton A.
