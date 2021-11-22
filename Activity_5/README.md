@@ -31,3 +31,8 @@ basic.forever(function () {
     basic.showString("Welcome")
 })
 ```
+# Explanation
+By telling the microbit to listen on channel 1, this will affect all the microbits that will be on the same channel. Subsequently, we transmit a message on channel 1. In this case : Welcome!
+The next block will receive the signal that has been sent and display it. This will affect all the
+microbits that are on the same channel. Thus, all students should see the same message
+scrolling by when one group press the A button.
