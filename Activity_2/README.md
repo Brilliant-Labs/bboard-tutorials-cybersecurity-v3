@@ -49,4 +49,9 @@ basic.forever(function () {
     } else {
         BLiXel.showColour(0xff0000)
     }
-})```
+))
+```
+# Explanation
+We started by creating a variable named password and placed it in the block startup by assigning it the value 123456. This tells the micro:bit to create the variable and assign the text 123456 to it as soon as the micro:bit is started.
+
+Afterwards, we inserted a little logic in the forever block in order to specify to the micro:bit what would happen if our variable did not have the same value as the password assigned to our logic. If the password of our variable password (which is created at startup) is equal to the text 123456, then the lights turn on green. Otherwise, the lights will turn red. Try changing the password in one place and see what happens.
