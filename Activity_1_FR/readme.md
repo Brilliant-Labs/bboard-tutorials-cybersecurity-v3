@@ -24,3 +24,12 @@ basic.forever(function () {
     basic.showString("My City")
 })
 ```
+
+# Explication du code
+Le bloc toujours exécute le code de manière permanente, c’est-à-dire sans s’arrêter. En plaçant le bloc afficher texte à l’intérieur du bloc toujours, le nom de notre communauté défilera à
+l’écran sans jamais s’arrêter.
+
+À l’opposé, si nous avions placé le bloc afficher texte dans le bloc au démarrage, le nom de notre communauté aurait défilé une fois et l’exécution du code se terminerait immédiatement après avoir fait
+afficher le nom à l’écran.
+
+Le choix du bloc au démarrage ou bien du bloc toujours reste un choix personnel en fonction de l’objectif recherché.
