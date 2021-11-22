@@ -39,3 +39,7 @@ input.onButtonPressed(Button.B, function () {
 })
 basic.showIcon(IconNames.Happy)
 ```
+# Explication du code
+Le code que nous avons élaboré permet d'offrir 2 possibilités. Premièrement, lorsque nous allons appuyer sur le bouton A, le servo moteur tournera à 180 degrés.
+
+En deuxième lieu, lorsque nous allons appuyer sur le bouton B, le servo moteur tournera dans le sens opposé.
