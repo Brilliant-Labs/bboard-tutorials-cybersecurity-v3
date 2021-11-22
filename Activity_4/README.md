@@ -31,3 +31,6 @@ basic.forever(function () {
     basic.pause(1000)
 })
 ```
+
+# Explanation
+The temperature block allows you to display the temperature of the microprocessor of your micro:bit. You can even cover the micro:bit with your hands to see a temperature increase.
