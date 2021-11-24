@@ -37,6 +37,17 @@ Le micro:bit est un microcontrôleur simple et vous aurez la chance de faire des
 # Etape 5 : si tout fonctionne
 1. à partir de l'onglet ``||Logic||`` faites glisser le bloc ``||if true then||`` et appuyez sur le bouton plus il devrait maintenant ressembler à ``||if true then else||``
 2. saisir le  ``||set all Blixels to red||`` et le mettre dans le ``||if true then||`` et mettre un dans le ``||else||`` et changer celui dans le ``||if true then||`` à la couleur **vert** (2ème rangée, 1ère)
+```blocks
+let password = "123456"
+basic.showIcon(IconNames.Yes)
+basic.forever(function () {
+    if (password == "123456") {
+        BLiXel.showColour(0x00ff00)
+    } else {
+        BLiXel.showColour(0xff0000)
+    }
+))
+```
 
 # Explication du code
 Nous avons commencé par créer une variable nommée password et nous l’avons placée dans le bloc au démarrage en lui assignant la valeur 123456. Ceci indique au micro:bit de créer la variable et d’y assigner le texte 123456 dès le démarrage du micro:bit.
