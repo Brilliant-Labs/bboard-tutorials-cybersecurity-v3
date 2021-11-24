@@ -40,7 +40,7 @@ for building their smart community later in the other activities.
 # Step 5 : if every thing works 
 1. from the ``||Logic||`` tab drag the ``||if true then||`` block and hit the plus button it should now look like ``||if true then else||``
 2. grab the ``||set all Blixels to red||`` and put it in the ``||if true then||`` and put one into the ``||else||`` and change the one in the ``||if true then||`` to the color **green** (2nd row, 1st one) 
-```
+```blocks
 let password = "123456"
 basic.showIcon(IconNames.Yes)
 basic.forever(function () {
