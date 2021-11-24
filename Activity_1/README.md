@@ -20,7 +20,7 @@ for building their smart community later in the other activities.
 2. In the ``||Basic||`` tab click and drag the **show string "hello"** block into the forever block
 
 
-```
+```blocks
 basic.forever(function () {
     basic.showString("Hackerville")
 })
