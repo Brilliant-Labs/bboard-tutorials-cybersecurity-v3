@@ -21,7 +21,7 @@ Le micro:bit est un microcontrôleur simple et vous aurez la chance de faire des
 1. ouvrez la balise ``||basic||`` et faites glisser le ``||show string "Hello"||`` et faites-le glisser dans le bloc ``||forever||``
 2. dans ``||basic||`` faites défiler vers le bas et recherchez la ``||temperatue (°c)||`` et cliquez et faites-la glisser dans le bloc ``||show string "Hello"||``
 3. dans le ``||input||`` recherchez le bloc ``||pause (ms) 100||`` et changez le **100 en 1000**
-```
+```blocks
 basic.showIcon(IconNames.Yes)
 basic.forever(function () {
     basic.showString("" + (input.temperature()))
