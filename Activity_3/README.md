@@ -40,7 +40,7 @@ for building their smart community later in the other activities.
 
 4. duplucate the block from step 3 part 2 and change the number from **180 to 0** and drag it in the **on button B pressed**
 
-```
+```blocks
 input.onButtonPressed(Button.A, function () {
     pins.servoWritePin(AnalogPin.P0, 180)
 })
