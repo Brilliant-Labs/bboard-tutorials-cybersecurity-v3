@@ -30,7 +30,7 @@ Le micro:bit est un microcontrôleur simple et vous aurez la chance de faire des
 3. Dans l'onglet de ``||input||``, faites glisser ``||on button A pressed||`` vers votre espace de travail et modifiez-le de A à B
 4. dupliquez le bloc de l'étape 3 partie 2 et changez le nombre de **180 à 0** et faites-le glisser dans le ``||on button B pressed||``
 
-```
+```blocks
 input.onButtonPressed(Button.A, function () {
     pins.servoWritePin(AnalogPin.P0, 180)
 })
