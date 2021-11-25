@@ -24,7 +24,7 @@ micro:bit.
 2. in the [Input] scroll down andd find the [temperatue (°c)] and click and drag it into the [show string "Hello"] block
 3. in the [input] find the [pause (ms) 100] block and change the **100 to 1000**
 
-```
+```blocks
 basic.showIcon(IconNames.Yes)
 basic.forever(function () {
     basic.showString("" + (input.temperature()))
