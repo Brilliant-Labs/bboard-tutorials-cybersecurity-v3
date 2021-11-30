@@ -17,7 +17,7 @@ for building their smart community later in the other activities.
 
 1. In the ``||Basic||`` bar click and drag the **show icon** block and change it from **heart to happy** (1st row, last one)
 
-2. In the ``||Basic||`` tab click and drag the **show string "hello"** block into the forever block
+2. In the ``||Basic||`` tab click and drag the **show string "hello"** block into the forever block and change it to ``||show string "hackerville"||``
 
 
 ```blocks
