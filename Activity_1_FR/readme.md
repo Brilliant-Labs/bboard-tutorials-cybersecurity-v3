@@ -18,7 +18,7 @@ Cette activité permettra aux élèves de créer une affiche lumineuse pour affi
 2. Dans l'onglet ``||Basic||``, cliquez et faites glisser le bloc show string "hello" dans le bloc forever
 3. change le bloc ``||show string "hello"||``, au nom de votre communauté
 
-``blocks
+```blocks
 basic.showIcon(IconNames.Happy)
 basic.forever(function () {
     basic.showString("My City")
