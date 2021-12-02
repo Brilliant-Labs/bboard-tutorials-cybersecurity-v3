@@ -19,7 +19,6 @@ Cette activité permettra aux élèves de créer une affiche lumineuse pour affi
 3. change le bloc ``||show string "hello"||``, au nom de votre communauté
 
 ```blocks
-basic.showIcon(IconNames.Happy)
 basic.forever(function () {
     basic.showString("My City")
 })
