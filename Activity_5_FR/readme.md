@@ -18,9 +18,9 @@ Le micro:bit est un microcontrôleur simple et vous aurez la chance de faire des
 ![Click](https://raw.githubusercontent.com/Brilliant-Labs/bboard-tutorials-cybersecurity-v3/main/Activity_2/b.Board_power.JPG)
 
 # Étape 2 : Signal radio
-1. dans l'onglet ``||radio||`` recherchez le bloc ``||radio set group 1||`` dans le bloc ``||on start||``
-2. dans l'onglet ``||Input||`` faites glisser le bloc ``||forever||`` et faites glisser le bloc ``||radio send string ""||`` et changez le **"" en bienvenue**
-3. dans l'onglet ``||radio||``, faites glisser le ``||on radio receive receiveString||`` et faites glisser les blocs ``||show string "hello"||`` et remplacez le "hello" par le ``||receivedString||``
+1. dans l'onglet ``||radio:radio||`` recherchez le bloc ``||radio:radio set group 1||`` dans le bloc ``||basic:on start||``
+2. dans l'onglet ``||input:Input||`` faites glisser le bloc ``||basic:forever||`` et faites glisser le bloc ``||radio:radio send string ""||`` et changez le "" en bienvenue
+3. dans l'onglet ``||radio:radio||``, faites glisser le ``||radio:on radio receive receiveString||`` et faites glisser les blocs ``||basic:show string "hello"||`` et remplacez le "hello" par le "receivedString"
 ```blocks
 radio.onReceivedString(function (receivedString) {
     basic.showString(receivedString)
