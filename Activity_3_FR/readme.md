@@ -25,10 +25,10 @@ Le micro:bit est un microcontrôleur simple et vous aurez la chance de faire des
 ![Click](https://raw.githubusercontent.com/Brilliant-Labs/bboard-tutorials-cybersecurity-v3/main/Activity_3/servo_in%20board.JPG)
 
 # Étape 3 : coder votre servomoteur
-1. Dans l'onglet de ``||input||``, faites glisser ``||on button A pressed||`` vers votre espace de travail 
-2. Dans l'onglet ``||advanced||``, recherchez la ``||servo write pin P0 to 180||``
-3. Dans l'onglet de ``||input||``, faites glisser ``||on button A pressed||`` vers votre espace de travail et modifiez-le de A à B
-4. dupliquez le bloc de l'étape 3 partie 2 et changez le nombre de **180 à 0** et faites-le glisser dans le ``||on button B pressed||``
+1. Dans l'onglet de ``||input:input||``, faites glisser ``||input:on button A pressed||`` vers votre espace de travail 
+2. Dans l'onglet ``||advanced:advanced||``, recherchez la ``||servo write pin P0 to 180||`` dans ``||pins:pins||``
+3. Dans l'onglet de ``||input:input||``, faites glisser ``||input:on button A pressed||`` vers votre espace de travail et modifiez-le de A à B
+4. dupliquez le bloc de l'étape 3 partie 2 et changez le nombre de 180 à 0 et faites-le glisser dans le ``||input:on button B pressed||``
 
 ```blocks
 input.onButtonPressed(Button.A, function () {
