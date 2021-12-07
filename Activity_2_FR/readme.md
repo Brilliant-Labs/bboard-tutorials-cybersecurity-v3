@@ -20,7 +20,7 @@ Le micro:bit est un microcontrôleur simple et vous aurez la chance de faire des
 ![Click](https://raw.githubusercontent.com/Brilliant-Labs/bboard-tutorials-cybersecurity-v3/main/Activity_2/b.Board_power.JPG)
 
 # Etape 3 : Quand ton Microbit et brance 
-1. Cliquez sur le ``||Avanced||`` onglet et trouvez l'onglet BLixels une fois dans les ``||BLiXels||`` onglet cliquez et faites glisser ``||set all blixels to red||`` et faites-le glisser dans le bloc pour toujours
+1.trouvez l'onglet ``||BLixels:Blixels||`` une fois dans les ``||BLiXels:BLiXels||`` onglet cliquez et faites glisser ``||BLixels:set all blixels to red||`` et faites-le glisser dans le bloc pour toujours
 2. allumez le bboard avec l'interrupteur sur le côté et voyez si le voyant est rouge
 > (si les Blixels ne sont pas rouges) répétez l'étape 3 une fois de plus
 <!-- https://raw.githubusercontent.com/Brilliant-Labs/bboard-tutorials-cybersecurity-v3/main/Activity_2/image%20(1).png -->
@@ -30,13 +30,13 @@ Le micro:bit est un microcontrôleur simple et vous aurez la chance de faire des
 ![Click](https://raw.githubusercontent.com/Brilliant-Labs/bboard-tutorials-cybersecurity-v3/main/Activity_2/image%20(2).png)
 
 # Etape 4 : si le voyant est rouge
-1. sous l'onglet ``||Variables||`` créez une toute nouvelle variable appelée **mot de passe**
-2. une fois que vous avez défini votre nouvelle variable a été créée, faites glisser le ``||Définir le mot de passe sur 0||`` dans le bloc ``||on start||`` également cliquez et faites glisser depuis le ``||Basic||`` le ``||show icon||`` et le changer du **coeur à oui** (1ère rangée, 3ème)
-3. ``||set password to 0||`` bloquer et le changer en ``||set password to 123456||``
+1. sous l'onglet ``||Variables:Variables||`` créez une toute nouvelle variable appelée **mot de passe**
+2. une fois que vous avez défini votre nouvelle variable a été créée, faites glisser le ``||Variables:set password as 0||`` dans le bloc ``||basic:on start||`` également cliquez et faites glisser depuis le ``||basic:Basic||`` le ``||sbasic:how icon||`` et le changer du **coeur à oui** (1ère rangée, 3ème)
+3. ``||Variables:set password to 0||`` bloquer et le changer en ``||Variables:set password to 123456||``
 
 # Etape 5 : si tout fonctionne
-1. à partir de l'onglet ``||Logic||`` faites glisser le bloc ``||if true then||`` et appuyez sur le bouton plus il devrait maintenant ressembler à ``||if true then else||``
-2. saisir le  ``||set all Blixels to red||`` et le mettre dans le ``||if true then||`` et mettre un dans le ``||else||`` et changer celui dans le ``||if true then||`` à la couleur **vert** (2ème rangée, 1ère)
+1. à partir de l'onglet ``||Logic:Logic||`` faites glisser le bloc ``||Logic:if true then||`` et appuyez sur le bouton plus il devrait maintenant ressembler à ``||Logic:if true then else||``
+2. saisir le  ``||BLiXles:set all Blixels to red||`` et le mettre dans le ``||Logic:if true then||`` et mettre un dans le ``||Logic:else||`` et changer celui dans le ``||Logic:if true then||`` à la couleur **vert** (2ème rangée, 1ère)
 ```blocks
 let password = "123456"
 basic.showIcon(IconNames.Yes)
