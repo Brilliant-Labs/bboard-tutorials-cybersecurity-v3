@@ -32,13 +32,13 @@ for building their smart community later in the other activities.
 
 # Step 3 : coding your servo motor 
 
-1. In the input tab drag the **on button A pressed** to your work space
+1. In the ``||input:input||`` tab drag the ``||input:on button A pressed||`` to your work space
 
-2. In the advanced tab find the **servo write pin P0 to 180**
+2. In the ``||advanced:advanced||`` tab find the ``||pins:pins||`` tab for ``||pins:servo write pin P0 to 180||``
 
-3. In the input tab drag the **on button A pressed** to your work space and change it from **A to B**
+3. In the ``||input:input||`` tab drag the ``||input:on button A pressed||`` to your work space and change it from A to B
 
-4. duplucate the block from step 3 part 2 and change the number from **180 to 0** and drag it in the **on button B pressed**
+4. duplucate the block from step 3 part 2 and change the number from 180 to 0 and drag it in the ``||input:on button B pressed||``
 
 ```blocks
 input.onButtonPressed(Button.A, function () {
