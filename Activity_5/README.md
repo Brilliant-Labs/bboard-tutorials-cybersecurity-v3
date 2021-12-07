@@ -18,9 +18,9 @@ This activity will allow students to interconnect the micro:bits together with t
 <!-- https://raw.githubusercontent.com/Brilliant-Labs/bboard-tutorials-cybersecurity-v3/main/Activity_2/b.Board_power.JPG -->
 ![Click](https://raw.githubusercontent.com/Brilliant-Labs/bboard-tutorials-cybersecurity-v3/main/Activity_2/b.Board_power.JPG)
 # Step 2: Radio Sinal 
-1. in the [radio] tab find the block [radio set group 1] into the on [start] block
-2. in the [input] tab drag the [forever] block and drag the **radio send string ""** block and change the **"" to welcome**
-3. in the radio tab drag the [on radio received receivedString] and drag the [show string "hello"] blocks and change the ["hello"] to the "receivedString"
+1. in the ``||radio:radio||`` tab find the block ``||radio:radio set group 1||`` into the ``||basic:on start||`` block
+2. in the ``||input:input||`` tab drag the ``||basic:forever||`` block and drag the ``||radio:radio send string ""||`` block and change the "" to welcome
+3. in the ``||radio:radio||`` tab drag the ``||radio:on radio received receivedString||`` and drag the ``||show string "hello"||`` blocks and change the "hello" to the "receivedString"
 
 ```blocks
 radio.onReceivedString(function (receivedString) {
