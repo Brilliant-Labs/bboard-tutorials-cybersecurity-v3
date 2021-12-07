@@ -33,13 +33,13 @@ for building their smart community later in the other activities.
 <!-- https://raw.githubusercontent.com/Brilliant-Labs/bboard-tutorials-cybersecurity-v3/main/Activity_2/image%20(2).png -->
 ![Click](https://raw.githubusercontent.com/Brilliant-Labs/bboard-tutorials-cybersecurity-v3/main/Activity_2/image%20(2).png)
 # Step 4 : if the light are red
-1. under the ``||Variables||`` tab create a brand new variable called **password**
-2. once you have set you brand new variable has been created drag the ``||Set password to 0||`` into the ``||on start||`` block as well cick and drag from the ``||Basic||`` the ``||show icon||`` and change it from the **heart to yes** (1st row, 3rd one)
-3. ``||set password to 0||`` block and change it to ``||set password to 123456||``
+1. under the ``||Variables:Variables||`` tab create a brand new variable called **password**
+2. once you have set you brand new variable has been created drag the ``||Variables:Set password to 0||`` into the ``||basic:on start||`` block as well cick and drag from the ``||Basic:Basic||`` the ``||basic:show icon||`` and change it from the **heart to yes** (1st row, 3rd one)
+3. ``||variables:set password to 0||`` block and change it to ``||variables:set password to 123456||``
 
 # Step 5 : if every thing works 
-1. from the ``||Logic||`` tab drag the ``||if true then||`` block and hit the plus button it should now look like ``||if true then else||``
-2. grab the ``||set all Blixels to red||`` and put it in the ``||if true then||`` and put one into the ``||else||`` and change the one in the ``||if true then||`` to the color **green** (2nd row, 1st one) 
+1. from the ``||Logic:Logic||`` tab drag the ``||logic:if true then||`` block and hit the plus button it should now look like ``||logic:if true then else||``
+2. grab the ``||Blixels:set all Blixels to red||`` and put it in the ``||logic:if true then||`` and put one into the ``||Logic:else||`` and change the one in the ``||Logic:if true then||`` to the color **green** (2nd row, 1st one) 
 ```blocks
 let password = "123456"
 basic.showIcon(IconNames.Yes)
